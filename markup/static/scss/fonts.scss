@@ -23,5 +23,8 @@ $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
 
-  src: url("BebasNeueBold.eot?#iefix") format("embedded-opentype"),  url("BebasNeueBold.woff") format("woff"), url("BebasNeueBold.ttf")  format("truetype"), url("BebasNeueBold.svg#BebasNeueBold") format("svg");
+  src: url("../fonts/BebasNeueBold.eot?#iefix") format("embedded-opentype"),  
+       url("../fonts/BebasNeueBold.woff") format("woff"), 
+       url("../fonts/BebasNeueBold.ttf")  format("truetype"), 
+       url("../fonts/BebasNeueBold.svg#BebasNeueBold") format("svg");
 }
