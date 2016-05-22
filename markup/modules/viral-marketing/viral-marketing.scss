@@ -1,0 +1,207 @@
+.viral-marketing {
+  position: absolute;
+  top: 298px;
+  left: 597px;
+
+  width: 76px;
+  height: 70px;
+  margin: auto;
+  .title {
+    width: 120%;
+  }
+  &__full {
+    @include bg-svg($viral-marketing-full);
+  }
+  &:hover {
+    .viral-marketing__full {
+      background-image: none;
+    }
+    .viral-marketing__icon-1 {
+      animation: viral-marketing-animate-1 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .viral-marketing__icon-2 {
+      animation: viral-marketing-animate-2 1.5s;
+      animation-delay: 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .viral-marketing__icon-3 {
+      animation: viral-marketing-animate-3 1.5s;
+      animation-delay: 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .viral-marketing__icon-4 {
+      animation: viral-marketing-animate-3 1.5s;
+      animation-delay: 1.2s;
+
+      animation-fill-mode: forwards;
+    }
+    .viral-marketing__icon-5 {
+      animation: viral-marketing-animate-3 1.5s;
+      animation-delay: 1.5s;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  &__icon-1 {
+    top: 0;
+    left: 0;
+
+    width: 76px;
+    height: 70px;
+
+    background: url(%=static=%minified-svg/viral-marketing-1.svg) no-repeat;
+  }
+  &__icon-2 {
+    top: 33px;
+    left: -7px;
+
+    @include bg-svg($viral-marketing-2);
+  }
+  &__icon-3 {
+    top: 8px;
+    left: 12px;
+
+    width: 0 !important;
+
+    @include bg-svg($viral-marketing-3);
+  }
+  &__icon-4 {
+    top: 12px;
+    left: 9px;
+
+    width: 0 !important;
+
+    @include bg-svg($viral-marketing-4);
+  }
+  &__icon-5 {
+    top: 16px;
+    left: 12px;
+
+    width: 0 !important;
+
+    @include bg-svg($viral-marketing-5);
+  }
+}
+
+// animation
+@keyframes viral-marketing-animate-1 {
+  0% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  30% {
+    visibility: visible;
+
+    transform: rotate(3deg);
+
+    opacity: 1;
+  }
+  60% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  60% {
+    visibility: visible;
+
+    transform: rotate(-3deg);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+}
+
+
+@keyframes viral-marketing-animate-2 {
+  0% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  20% {
+    visibility: hidden;
+
+    opacity: 0;
+  }
+  40% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  60% {
+    visibility: hidden;
+
+    opacity: 0;
+  }
+  80% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+}
+
+
+@keyframes viral-marketing-animate-3 {
+  0% {
+    visibility: visible;
+
+    width: 0;
+
+    opacity: 1;
+  }
+  20% {
+    visibility: visible;
+
+    width: 20%;
+
+    opacity: 1;
+  }
+  40% {
+    visibility: visible;
+
+    width: 40%;
+
+    opacity: 1;
+  }
+  60% {
+    visibility: visible;
+
+    width: 60%;
+
+    opacity: 1;
+  }
+  80% {
+    visibility: visible;
+
+    width: 80%;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    width: 100%;
+
+    opacity: 1;
+  }
+}

@@ -1,0 +1,78 @@
+.internet {
+  position: absolute;
+  top: 280px;
+  left: 490px;
+
+  width: 74px;
+  height: 78px;
+  margin: auto;
+  &__full {
+    @include bg-svg($internet-full);
+  }
+  &:hover {
+    .internet__full {
+      background-image: none;
+    }
+    .internet__icon-1 {
+      visibility: visible;
+
+      opacity: 1;
+    }
+    .internet__icon-2 {
+      animation: internet-animate 1s;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  &__icon-1 {
+    top: 0;
+    left: -1px;
+
+    width: 66px;
+    height: 64px;
+
+    background: url(%=static=%minified-svg/internet-1.svg) no-repeat;
+  }
+  &__icon-2 {
+    top: 32px;
+    right: 0;
+
+    width: 40px;
+    height: 46px;
+
+    background: url(%=static=%minified-svg/internet-2.svg) no-repeat;
+    background-position: right bottom;
+    background-size: 34px 37px;
+  }
+}
+
+@keyframes internet-animate {
+  0% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  30% {
+    visibility: visible;
+
+    transform: rotate(30deg);
+
+    opacity: 1;
+  }
+  60% {
+    visibility: visible;
+
+    transform: rotate(-30deg);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+}

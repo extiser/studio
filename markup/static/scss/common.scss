@@ -1,22 +1,48 @@
 // Common styles of the project
 
-html, body {
-    height: 100%;
+html,
+body {
+  overflow-x: hidden;
+
+  height: 100%;
 }
 
-.page {
-    
+.bg {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: -10px;
+
+  margin: auto;
 }
 
-.page__wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
+.wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 
-* html .page__wrapper {
-    height: 100%;
+.icon {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+
+  background-repeat: no-repeat;
 }
 
-.page__buffer {
-    height: 50px;
+.title {
+  margin-top: 10px;
+
+  text-align: center;
+  letter-spacing: .05em;
+
+  color: #fff;
+
+  font-family: "BebasNeueBold";
+  font-size: 21px;
+  line-height: 25px;
 }

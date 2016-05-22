@@ -1,0 +1,7 @@
+mixin tv-radio
+  a(href="#")
+    .tv-radio
+      .tv-radio__full
+      - for (var i = 1; i < 7; i++)
+        .icon(class="tv-radio__icon-#{i}")
+      .title Тв / Радио

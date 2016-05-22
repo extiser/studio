@@ -1,0 +1,144 @@
+.event-marketing {
+  position: absolute;
+  top: 267px;
+  left: 790px;
+
+  width: 61px;
+  height: 57px;
+  .title {
+    position: absolute;
+    left: -14px;
+
+    width: 140%;
+  }
+  &__full {
+    @include bg-svg($event-marketing-full);
+  }
+  &:hover {
+    .event-marketing__full {
+      background-image: none;
+    }
+    .event-marketing__icon-6 {
+      visibility: visible;
+
+      opacity: 1;
+    }
+    .event-marketing__icon-1 {
+      animation: event-marketing-animate-1 .3s;
+
+      animation-fill-mode: forwards;
+    }
+    .event-marketing__icon-2 {
+      animation: event-marketing-animate-2 .3s;
+      animation-delay: .2s;
+
+      animation-fill-mode: forwards;
+    }
+    .event-marketing__icon-3 {
+      animation: event-marketing-animate-2 .3s;
+      animation-delay: .4s;
+
+      animation-fill-mode: forwards;
+    }
+    .event-marketing__icon-4 {
+      animation: event-marketing-animate-1 .3s;
+      animation-delay: .7s;
+
+      animation-fill-mode: forwards;
+    }
+    .event-marketing__icon-5 {
+      animation: event-marketing-animate-3 1s;
+      animation-delay: 1s;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  &__icon-1 {
+    top: 20px;
+    left: 7px;
+
+    @include bg-svg($event-marketing-1);
+  }
+  &__icon-2 {
+    top: 20px;
+    left: 8px;
+
+    @include bg-svg($event-marketing-2);
+  }
+  &__icon-3 {
+    top: 20px;
+    right: 11px;
+
+    @include bg-svg($event-marketing-3);
+  }
+  &__icon-4 {
+    bottom: 10px;
+    left: 8px;
+
+    @include bg-svg($event-marketing-4);
+  }
+  &__icon-5 {
+    bottom: 14px;
+    left: 27px;
+
+    @include bg-svg($event-marketing-5);
+  }
+  &__icon-6 {
+    top: 0;
+    left: 0;
+
+    @include bg-svg($event-marketing-6);
+  }
+}
+
+
+@keyframes event-marketing-animate-1 {
+  0% {
+    visibility: visible;
+
+    width: 0;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    width: 100%;
+
+    opacity: 1;
+  }
+}
+
+@keyframes event-marketing-animate-2 {
+  0% {
+    visibility: visible;
+
+    height: 0;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    height: 28px;
+
+    opacity: 1;
+  }
+}
+
+@keyframes event-marketing-animate-3 {
+  0% {
+    visibility: visible;
+
+    width: 0;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    width: 18px;
+
+    opacity: 1;
+  }
+}

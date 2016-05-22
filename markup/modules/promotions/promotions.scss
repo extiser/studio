@@ -1,0 +1,109 @@
+.promotions {
+  position: absolute;
+  top: 242px;
+  left: 703px;
+
+  width: 55px;
+  height: 55px;
+  &__full {
+    @include bg-svg($promotions-full);
+  }
+  &:hover {
+    .promotions__full {
+      background-image: none;
+    }
+    .promotions__icon-1 {
+      animation: promotions-animate-1 2s;
+
+      animation-fill-mode: forwards;
+    }
+    .promotions__icon-2 {
+      animation: promotions-animate-3 .1s;
+      animation-delay: .5s;
+
+      animation-fill-mode: forwards;
+    }
+    .promotions__icon-3 {
+      animation: promotions-animate-2 .5s;
+
+      animation-fill-mode: forwards;
+    }
+    .promotions__icon-4 {
+      animation: promotions-animate-3 .1s;
+      animation-delay: .8s;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  &__icon-1 {
+    top: 0;
+    left: 0;
+
+    @include bg-svg($promotions-1);
+  }
+  &__icon-2 {
+    top: 16px;
+    left: 17px;
+
+    @include bg-svg($promotions-2);
+  }
+  &__icon-3 {
+    top: 16px;
+    left: 16px;
+
+    @include bg-svg($promotions-3);
+  }
+  &__icon-4 {
+    top: 32px;
+    left: 30px;
+
+    @include bg-svg($promotions-4);
+  }
+}
+
+@keyframes promotions-animate-1 {
+  0% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    transform: rotate(360deg);
+
+    opacity: 1;
+  }
+}
+
+@keyframes promotions-animate-2 {
+  0% {
+    visibility: visible;
+
+    height: 0;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    height: 23px;
+
+    opacity: 1;
+  }
+}
+
+@keyframes promotions-animate-3 {
+  0% {
+    visibility: hidden;
+
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+}

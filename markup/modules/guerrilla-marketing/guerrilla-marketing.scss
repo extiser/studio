@@ -1,0 +1,133 @@
+.guerrilla-marketing {
+  position: absolute;
+  top: 263px;
+  left: 334px;
+
+  width: 113px;
+  height: 92px;
+  margin: auto;
+  &__full {
+    @include bg-svg($guerrilla-marketing-full);
+  }
+  &:hover {
+    .guerrilla-marketing__full {
+      background-image: none;
+    }
+    .icon {
+      animation: guerrilla-marketing-animate-2 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .guerrilla-marketing__icon-1 {
+      animation: guerrilla-marketing-animate-1 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .guerrilla-marketing__icon-2 {
+      animation-delay: .7s;
+    }
+    .guerrilla-marketing__icon-3 {
+      animation-delay: 1s;
+    }
+    .guerrilla-marketing__icon-4 {
+      animation-delay: 1.3s;
+    }
+    .guerrilla-marketing__icon-5 {
+      animation-delay: 1.6s;
+    }
+    .guerrilla-marketing__icon-6 {
+      animation-delay: 1.9s;
+    }
+    .guerrilla-marketing__icon-7 {
+      animation-delay: 2.2s;
+    }
+  }
+  &__icon-1 {
+    top: 27px;
+    left: 20px;
+
+    width: 66px;
+    height: 42px;
+
+    background: url(%=static=%minified-svg/guerrilla-marketing-1.svg);
+  }
+  &__icon-2 {
+    top: 57px;
+    left: 5px;
+
+    @include bg-svg($guerrilla-marketing-2);
+  }
+  &__icon-3 {
+    top: 21px;
+    left: 0;
+
+    @include bg-svg($guerrilla-marketing-3);
+  }
+  &__icon-4 {
+    top: 0;
+    left: 21px;
+
+    @include bg-svg($guerrilla-marketing-4);
+  }
+  &__icon-5 {
+    top: 11px;
+    left: 66px;
+
+    @include bg-svg($guerrilla-marketing-5);
+  }
+  &__icon-6 {
+    top: 36px;
+    left: 72px;
+
+    @include bg-svg($guerrilla-marketing-6);
+  }
+  &__icon-7 {
+    top: 70px;
+    left: 43px;
+
+    @include bg-svg($guerrilla-marketing-7);
+  }
+}
+
+
+// animate
+// icon1
+@keyframes guerrilla-marketing-animate-1 {
+  0% {
+    visibility: visible;
+
+    transform: scale(.9);
+
+    opacity: 1;
+    background: url(%=static=%minified-svg/guerrilla-marketing-1-full.svg);
+  }
+  50% {
+    visibility: visible;
+
+    transform: scale(1.3);
+
+    opacity: 1;
+    background: url(%=static=%minified-svg/guerrilla-marketing-1-full.svg);
+  }
+  100% {
+    visibility: visible;
+
+    transform: scale(1);
+
+    opacity: 1;
+    background: url(%=static=%minified-svg/guerrilla-marketing-1.svg);
+  }
+}
+// icon2
+@keyframes guerrilla-marketing-animate-2 {
+  0% {
+    visibility: visible;
+
+    opacity: .3;
+  }
+  100% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+}

@@ -16,3 +16,12 @@
 // Var for using custom font
 $CustomFont: 'CustomFont', Helvetica, Arial, sans-serif;
 */
+
+
+@font-face {
+  font-family: "BebasNeueBold";
+  font-weight: normal;
+  font-style: normal;
+
+  src: url("BebasNeueBold.eot?#iefix") format("embedded-opentype"),  url("BebasNeueBold.woff") format("woff"), url("BebasNeueBold.ttf")  format("truetype"), url("BebasNeueBold.svg#BebasNeueBold") format("svg");
+}

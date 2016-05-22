@@ -1,0 +1,209 @@
+.corporate {
+  position: absolute;
+  top: 415px;
+  left: 486px;
+
+  width: 93px;
+  height: 112px;
+  &__full {
+    @include bg-svg($corporate-full);
+  }
+  &:hover {
+    .corporate__full {
+      background-image: none;
+    }
+    .corporate__icon-1 {
+      animation: corporate-animate-1 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-2 {
+      animation: corporate-animate-2 .5s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-3 {
+      animation: corporate-animate-2 .5s;
+      animation-delay: .5s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-4 {
+      animation: corporate-animate-2 .5s;
+      animation-delay: .8s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-5 {
+      animation: corporate-animate-2 .5s;
+      animation-delay: 1.1s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-6 {
+      animation: corporate-animate-3 1s;
+    }
+    .corporate__icon-7 {
+      animation: corporate-animate-3 1s;
+      animation-delay: .6s;
+    }
+    .corporate__icon-8 {
+      animation: corporate-animate-4 1s;
+      animation-delay: 1.2s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-9 {
+      animation: corporate-animate-3 1.2s;
+    }
+    .corporate__icon-10 {
+      animation: corporate-animate-3 1s;
+      animation-delay: .6s;
+
+      animation-fill-mode: forwards;
+    }
+    .corporate__icon-11 {
+      animation: corporate-animate-4 1s;
+      animation-delay: 1.2s;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  &__icon-1 {
+    top: 0;
+    left: 28px;
+
+    @include bg-svg($corporate-1);
+  }
+  &__icon-2 {
+    top: 29px;
+    left: 10px;
+
+    @include bg-svg($corporate-2);
+  }
+  &__icon-3 {
+    top: 40px;
+    left: 10px;
+
+    @include bg-svg($corporate-3);
+  }
+  &__icon-4 {
+    top: 10px;
+    left: 78px;
+
+    @include bg-svg($corporate-4);
+  }
+  &__icon-5 {
+    top: 24px;
+    left: 82px;
+
+    @include bg-svg($corporate-5);
+  }
+  &__icon-6 {
+    top: 59px;
+
+    @include bg-svg($corporate-6);
+  }
+  &__icon-7 {
+    top: 57px;
+
+    @include bg-svg($corporate-7);
+  }
+  &__icon-8 {
+    top: 59px;
+
+    @include bg-svg($corporate-8);
+  }
+  &__icon-9 {
+    top: 72px;
+    left: 60px;
+
+    @include bg-svg($corporate-9);
+  }
+  &__icon-10 {
+    top: 72px;
+    left: 60px;
+
+    @include bg-svg($corporate-10);
+  }
+  &__icon-11 {
+    top: 72px;
+    left: 60px;
+
+    @include bg-svg($corporate-11);
+  }
+}
+
+
+@keyframes corporate-animate-1 {
+  0% {
+    visibility: visible;
+
+    transform: scaleY(1);
+
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+
+    transform: scaleY(1.2);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    transform: scaleY(1);
+
+    opacity: 1;
+  }
+}
+
+@keyframes corporate-animate-2 {
+  0% {
+    visibility: hidden;
+
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+}
+
+@keyframes corporate-animate-3 {
+  0% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: hidden;
+
+    opacity: 0;
+  }
+}
+
+@keyframes corporate-animate-4 {
+  0% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    opacity: 1;
+  }
+}

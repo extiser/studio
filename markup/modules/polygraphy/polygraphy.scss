@@ -1,0 +1,167 @@
+.polygraphy {
+  position: absolute;
+  top: 460px;
+  left: 603px;
+
+  width: 109px;
+  height: 118px;
+  &__full {
+    @include bg-svg($polygraphy-full);
+  }
+  &:hover {
+    .polygraphy__full {
+      background-image: none;
+    }
+    .polygraphy__icon-1 {
+      animation: polygraphy-animate-3 1s;
+
+      animation-fill-mode: forwards;
+    }
+    .polygraphy__icon-2 {
+      animation: polygraphy-animate-1 2s;
+
+      animation-fill-mode: forwards;
+    }
+    .polygraphy__icon-3 {
+      animation: polygraphy-animate-2 1.5s;
+
+      animation-fill-mode: forwards;
+    }
+  }
+  &__icon-1 {
+    top: 0;
+
+    @include bg-svg($polygraphy-1);
+  }
+  &__icon-2 {
+    top: 26px;
+    left: 28px;
+
+    @include bg-svg($polygraphy-2);
+  }
+  &__icon-3 {
+    top: 66px;
+    left: 72px;
+
+    @include bg-svg($polygraphy-3);
+  }
+}
+
+@keyframes polygraphy-animate-1 {
+  0% {
+    visibility: visible;
+
+    width: 0;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  25% {
+    visibility: visible;
+
+    width: 15%;
+
+    transform: rotate(10deg);
+
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+
+    width: 30%;
+
+    transform: rotate(0deg);
+
+    opacity: 1;
+  }
+  75% {
+    visibility: visible;
+
+    width: 55%;
+
+    transform: rotate(-10deg);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    width: 100%;
+
+    transform: rotate(0deg);
+
+    opacity: 1;
+  }
+}
+
+
+@keyframes polygraphy-animate-2 {
+  0% {
+    visibility: visible;
+
+    transform: scaleY(1);
+
+    opacity: 1;
+  }
+  25% {
+    visibility: visible;
+
+    transform: scaleY(1.1);
+
+    opacity: 1;
+  }
+  50% {
+    visibility: visible;
+
+    transform: scaleY(1.5);
+
+    opacity: 1;
+  }
+  75% {
+    visibility: visible;
+
+    transform: scaleY(1.1);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    transform: scaleY(1);
+
+    opacity: 1;
+  }
+}
+
+
+@keyframes polygraphy-animate-3 {
+  0% {
+    visibility: visible;
+
+    transform: rotate(0);
+
+    opacity: 1;
+  }
+  30% {
+    visibility: visible;
+
+    transform: rotate(10deg);
+
+    opacity: 1;
+  }
+  60% {
+    visibility: visible;
+
+    transform: rotate(-3deg);
+
+    opacity: 1;
+  }
+  100% {
+    visibility: visible;
+
+    transform: rotate(0deg);
+
+    opacity: 1;
+  }
+}

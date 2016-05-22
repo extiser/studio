@@ -1,0 +1,626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"ya-site",
+				"ya-site-form__input"
+			],
+			[
+				"ya",
+				"ya-site-form0"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"marign",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"s",
+				"sitemap-block"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"align",
+				"align-middle"
+			],
+			[
+				"rev",
+				"reviews-inside-item-meta"
+			],
+			[
+				"re",
+				"reviews-inside-item-meta"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"lik",
+				"like-dislike__item"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"li",
+				"light-gray"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sho",
+				"show-more"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"med",
+				"medium-4"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"df",
+				"d9f1f6"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"spr",
+				"sprite-background-position"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"in",
+				"input	input - submit"
+			],
+			[
+				"label",
+				"label	Tag"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"sp",
+				"sprite-dimensions"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"di",
+				"sprite-dimensions"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"icons-sp",
+				"icons-sprite-height"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"slide",
+				"slideUp	.slideUp()"
+			],
+			[
+				"sc",
+				"script	Tag"
+			],
+			[
+				"inpu",
+				"input	input - submit"
+			],
+			[
+				"la",
+				"label	<label> with <input>"
+			],
+			[
+				"img",
+				"img	img"
+			],
+			[
+				"labe",
+				"label	<label>"
+			],
+			[
+				"for",
+				"form	<form>"
+			],
+			[
+				"tit",
+				"title	Attr"
+			],
+			[
+				"td",
+				"td	<td>"
+			],
+			[
+				"tr",
+				"tr	<tr>"
+			],
+			[
+				"icon",
+				"icons-sprite"
+			],
+			[
+				"textt",
+				"text-decoration"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"input",
+				"input	input - text"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"bord",
+				"border-top"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"span",
+				"span	Tag"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"ico",
+				"icons"
+			],
+			[
+				"sprite-h",
+				"sprite-height"
+			],
+			[
+				"icons",
+				"icons-layout"
+			],
+			[
+				"ti",
+				"title	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				":",
+				"View: Toggle Menu"
+			],
+			[
+				"",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/extiser/git/studio/markup",
+		"/Users/extiser/git/studio/markup/modules",
+		"/Users/extiser/git/studio/markup/modules/guerrilla-marketing",
+		"/Users/extiser/git/studio/markup/modules/head",
+		"/Users/extiser/git/studio/markup/pages",
+		"/Users/extiser/git/studio/markup/static",
+		"/Users/extiser/git/studio/markup/static/scss",
+		"/Users/extiser/git/studio/markup/static/scss/etc"
+	],
+	"file_history":
+	[
+		"/Users/extiser/git/studio/markup/static/scss/GUI.scss",
+		"/Users/extiser/git/studio/markup/modules/guerrilla-marketing/guerrilla-marketing.jade",
+		"/Users/extiser/git/studio/markup/modules/guerrilla-marketing/guerrilla-marketing.scss",
+		"/Users/extiser/git/studio/markup/modules/head/head.jade",
+		"/Users/extiser/git/studio/markup/modules/guerrilla-marketing/script.js",
+		"/Users/extiser/git/studio/dev/static/images/minified-svg/guerilla-marketing.svg",
+		"/Users/extiser/git/studio/markup/pages/index.jade",
+		"/Users/extiser/git/studio/markup/static/scss/common.scss",
+		"/Users/extiser/git/studio/markup/static/scss/etc/etc.scss",
+		"/Users/extiser/git/propodarki/markup/modules/search/search.jade",
+		"/Users/extiser/git/propodarki/markup/modules/search/search.scss",
+		"/Users/extiser/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/extiser/git/propodarki/markup/pages/catalog.jade",
+		"/Users/extiser/git/propodarki/markup/modules/article-block/article-block.scss",
+		"/Users/extiser/git/propodarki/markup/pages/_layout.jade",
+		"/Users/extiser/git/propodarki/builds/catalog.html",
+		"/Users/extiser/git/propodarki/tars-config.js",
+		"/Users/extiser/git/propodarki/webpack.config.js",
+		"/Users/extiser/git/propodarki/builds/article-block/article-block.html",
+		"/Users/extiser/git/propodarki/markup/pages/sitemap.jade",
+		"/Users/extiser/git/propodarki/markup/modules/sitemap-block/sitemap-block.jade",
+		"/Users/extiser/git/propodarki/markup/modules/sitemap-block/sitemap-block.scss",
+		"/Users/extiser/git/propodarki/markup/modules/reviews-inside-item/reviews-inside-item.jade",
+		"/Users/extiser/git/propodarki/markup/modules/reviews-inside-item/reviews-inside-item.scss",
+		"/Users/extiser/git/propodarki/markup/modules/reviews-inside-widget/reviews-inside-widget.jade",
+		"/Users/extiser/git/propodarki/markup/modules/reviews-inside-widget/reviews-inside-widget.scss",
+		"/Users/extiser/git/propodarki/markup/modules/like-dislike/like-dislike.jade",
+		"/Users/extiser/git/propodarki/markup/modules/like-dislike/like-dislike.scss",
+		"/Users/extiser/git/propodarki/markup/static/scss/_settings.scss",
+		"/Users/extiser/git/propodarki/markup/modules/reviews-item/reviews-item.scss",
+		"/Users/extiser/git/propodarki/markup/pages/reviews.jade",
+		"/Users/extiser/git/propodarki/markup/modules/reviews-item/reviews-item.jade",
+		"/Users/extiser/git/propodarki/markup/modules/show-more/show-more.jade",
+		"/Users/extiser/git/propodarki/markup/modules/show-more/show-more.scss",
+		"/Users/extiser/git/propodarki/markup/static/scss/common.scss",
+		"/Users/extiser/git/propodarki/markup/modules/breadcrumbs/breadcrumbs.jade",
+		"/Users/extiser/git/propodarki/markup/modules/breadcrumbs/breadcrumbs.scss",
+		"/Users/extiser/git/myart/stylesheets/screen.css",
+		"/Users/extiser/git/myart/MyArt4_masterclass_article.html",
+		"/Users/extiser/git/myart/MyArt4_masterclass_article_print.html",
+		"/Users/extiser/git/myart/MyArt4_main.html",
+		"/Users/extiser/git/myart/MyArt4_poisk.html",
+		"/Users/extiser/git/myart/MyArt4_ofomlenie_zakaza.html",
+		"/Users/extiser/git/myart/MyArt4_masterclass_catalog.html",
+		"/Users/extiser/git/myart/MyArt4_korzina.html",
+		"/Users/extiser/git/myart/MyArt4_kontakt.html",
+		"/Users/extiser/git/myart/MyArt4_kartochka.html",
+		"/Users/extiser/git/myart/MyArt4_dostavka.html",
+		"/Users/extiser/git/myart/MyArt4_catalog.html",
+		"/Users/extiser/git/myart/MyArt4_404.html",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/style.css",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/index.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/article.htm",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/404.htm",
+		"/C/Sites/kazanova/stylesheet.scss",
+		"/C/Sites/kazanova/style.css",
+		"/C/Sites/myart/MyArt4_main.html",
+		"/C/Sites/myart/MyArt4_kartochka.html",
+		"/C/Sites/myart/sass/screen.scss",
+		"/C/Sites/myart/view.php",
+		"/C/Sites/myart/MyArt4_404.html",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/sert.htm",
+		"/C/Sites/myart/sass/config.scss",
+		"/C/Sites/svadbovo/sass/screen.scss",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel_add_calendar.html",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/include/slider.js",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_ KAzanova_all/Верстка/tovar.htm",
+		"/C/Sites/myart/MyArt4_ofomlenie_zakaza.html",
+		"/C/Sites/myart/MyArt4_poisk.html",
+		"/C/Sites/myart/MyArt4_kontakt.html",
+		"/C/Sites/myart/MyArt4_korzina.html",
+		"/C/Sites/myart/MyArt4_masterclass_article_print.html",
+		"/C/Sites/myart/sass/print.scss",
+		"/C/Sites/myart/MyArt4_masterclass_article.html",
+		"/C/Sites/svadbovo/sass/config.scss",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel_otzuv.html",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel_nastroiki.html",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel_informat_o_kompanii.html",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel_clean.html",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel_add_novosti.html",
+		"/C/Sites/svadbovo/svadba_profile_reklamodatel.html",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/[СДАЛ]/PSD_scraphobby.lv/Верстка/style.css",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/[СДАЛ]/PSD_scraphobby.lv/Верстка/basket.htm",
+		"/C/Sites/myart/index.html",
+		"/C/WebServers/home/web.yaca.ru/www/wp-content/themes/ekodom/single.php",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/[СДАЛ]/Wap/MF_mobzoneoo.com_fixed/index.html",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/[СДАЛ]/Wap2/wap.htm",
+		"/C/Sites/myart/catalog.html",
+		"/C/Sites/myart/article_master.html",
+		"/C/Sites/myart/sass/ie.scss",
+		"/C/Sites/myart/config.rb",
+		"/C/Users/Руслан/Desktop/verstala/config.rb",
+		"/C/Sites/myart/myart.lv.sublime-project",
+		"/C/Users/Руслан/Desktop/DevKit/dk.rb",
+		"/C/Program Files/Ruby2/DevKit/dk.rb",
+		"/C/Program Files/Ruby2/DevKit/config.yml",
+		"/C/Program Files/Ruby200-x64/lib/ruby/gems/2.0.0/gems/oily_png-1.1.1/ext/oily_png/gem_make.out",
+		"/C/Users/Руслан/Desktop/DevKit/config.yml",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel.html",
+		"/C/Users/Руслан/Desktop/verstala/sass/screen.scss",
+		"/C/Users/Руслан/Desktop/verstala/sass/config.scss",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel_nastroiki.html",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel_add_calendar.html",
+		"/C/Users/Руслан/Desktop/verstala/stylesheets/config.css",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel.sublime-workspace",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel.sublime-project",
+		"/C/WebServers/home/loc.svadbovo/www/sass/screen.scss",
+		"/C/Users/Руслан/Desktop/verstala/images/icons-s29c4d1a434.png",
+		"/C/Users/Руслан/Desktop/verstala/stylesheets/screen.css",
+		"/C/Users/Руслан/Desktop/verstala/index.htm",
+		"/C/Users/Руслан/Desktop/verstala/svadba_profile_reklamodatel",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_svadbavo/Верстка/style.scss",
+		"/D/MIX/Работа/Web - design/1 туц/Постоянка/PSD_svadbavo/Верстка/style.sass"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#ya",
+			"reviews-widget-item",
+			".menu",
+			".cat",
+			"популярны",
+			"популярные",
+			"uhod",
+			".block",
+			"block",
+			"ИДЩСЛ",
+			"rating",
+			"basket",
+			"master",
+			"ul li ",
+			"ano",
+			"modal",
+			"tovar",
+			"kartocka",
+			"kartocja",
+			"section",
+			"table",
+			"content",
+			".form",
+			"form",
+			"master",
+			"h1",
+			"cost",
+			"h2",
+			".block",
+			".big",
+			"filter",
+			"tovar",
+			"cost",
+			"image",
+			"table",
+			"search",
+			"+",
+			"first-child",
+			"font-size: 14px;",
+			"user",
+			"redact",
+			";\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\n#ya",
+			"reviews-item"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "studio.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/git/stomatolog/stomatolog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
